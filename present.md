@@ -5,6 +5,7 @@ marp: true
 # Speech to Code
 
 - Kae Sluder (they/them), UI Programmer
+- Ex-eLearning designer 
 - Intern -> Contractor -> Fulltime
 - React, Vue, JavaScript, vitest 
 
@@ -14,7 +15,7 @@ marp: true
 
 - Broken hand
 - Pain points: capitalization, symbols, punctuation 
-- Eg: `for (let i = 0; i <= 30; i++) {...}`
+- Eg: `for (let i = 0; i <= 30; i++) {Hammer.camelCase(i)}`
 - Loss of speed and focus
 
 --- 
@@ -36,21 +37,16 @@ marp: true
 
 ---
 
-# Low level: Pseudocode
+# Low level: Pseudocode Algorithm Description
 
 ```text
 // Pseudocode example one 
-loop i = 1 to 30 include 30 
-If i mod 15 = 0, 
-    print "fizzbuzz"
-else if i mod 3 = 0
-    print "fizz"
-else if i mod 5 = 0
-    print "buzz"
-else
-    print i
-
-end loop
+Loop for i from 1 to 30, including 30 
+If i is evenly divisible by 15, print "fizzbuzz" 
+Else If i is evenly divisible by 5. Print "buzz"
+Else if i is evenly divisible by three, print fizz. 
+Else print i 
+Exit the loop. 
 ```
 
 ---
@@ -96,7 +92,7 @@ for (let i = 1; i <= 30; i++) {
 
 # Spec File
 
-Detailed description of what exactly you want for the AI to create.
+Detailed description of what exactly you want for the AI to create. 
 
 - Purpose 
 - Behaviors ([gherkin](https://cucumber.io/docs/gherkin/))
@@ -104,10 +100,13 @@ Detailed description of what exactly you want for the AI to create.
 - Data structures
 - Rules ("Use tailwind", "Check Makefile for test instructions") 
 - Test Cases 
+- Jira Ticket Descriptions
 
 ---
 
 # Behavior
+
+When, given, then = Action, condition, result. 
 
 ```text
 When the user clicks on the Next button 
@@ -147,10 +146,11 @@ Spec and plan files are living documents. They are revised and reviewed multiple
 
 - Tests are mandatory to confirm success/failure
 - Code written to pass tests
+- Tests provide critical information during the debugging process.
 
 ---
 
-# Review
+# Human Review
 
 - Sometimes it's wrong
 - Usually can be better 
@@ -163,7 +163,7 @@ Spec and plan files are living documents. They are revised and reviewed multiple
 
 - Not necessarily faster
 - Shift focus from code syntax to architecture, requirements, review, and testing
-- Zone of Proximal Development
+- Zone of Proximal Development (learning theory)
   - What can be done solo
   - What can be done with help
 - Comprehension risk 
