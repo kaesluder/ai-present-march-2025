@@ -51,35 +51,6 @@ Exit the loop.
 
 ---
 
-# Prompt
-
-```text
-prompt example 1:
-Translate pseudocode labeled "Pseudocode Example 1" into idiomatic JavaScript. 
-Paste into the block labeled "JavaScript Example 1." 
-```
-
----
-
-# Output 
-
-```js
-// JavaScript example one
-for (let i = 1; i <= 30; i++) {
-  if (i % 15 === 0) {
-    console.log("fizzbuzz");
-  } else if (i % 3 === 0) {
-    console.log("fizz");
-  } else if (i % 5 === 0) {
-    console.log("buzz");
-  } else {
-    console.log(i);
-  }
-}
-```
-
----
-
 # High-level: spec/behavior-based development 
 
 1. Spec file
@@ -136,7 +107,7 @@ Spec and plan files are living documents. They are revised and reviewed multiple
 - Can take a break
 - Adversarial Reviews (reduce risks of fixation)
 - Context Clearing
-  - Ideal < 50% of context window
+  - Ideal ~ 50% of context window
   - Avoid context poisoning
   - Reduce fixation
 
