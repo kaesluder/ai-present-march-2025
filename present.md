@@ -33,7 +33,7 @@ marp: true
 # English to Code
 
 - Write in English
-- AI translation to JS
+- AI translation to JavaScript/TypeScript
 
 ---
 
@@ -58,6 +58,8 @@ Exit the loop.
 3. Question & review cycle 
 4. Execute plan
 5. Review
+
+See also: BMAD, github spec-kit
 
 ---
 
@@ -102,7 +104,7 @@ Then the user sees an error message
 
 # Document Driven Process
 
-Spec and plan files are living documents. They are revised and reviewed multiple times before code generation. 
+Spec and plan files are living documents. They can be revised and reviewed multiple times before code generation. 
 
 - Can take a break
 - Adversarial Reviews (reduce risks of fixation)
