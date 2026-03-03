@@ -136,7 +136,4 @@ Spec and plan files are living documents. They can be revised and reviewed multi
 
 - Not necessarily faster
 - Shift focus from code syntax to architecture, requirements, review, and testing
-- Zone of Proximal Development (learning theory)
-  - What can be done solo
-  - What can be done with help
 - Comprehension risk 
