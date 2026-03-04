@@ -55,6 +55,7 @@ A newer product, Wispr Flow, is what I'm using here. It is especially designed f
 
 
 So after about a month and a half or so of trying to dictate JavaScript anyway, I started moving towards a spec-driven development, AI-supported system. The basic premise there is that you write your algorithms or you write your specifications in plain English, and then you use an AI agent to translate that into JavaScript or TypeScript or any other language that you're working in. 
+
 ---
 
 # Low level: Pseudocode Algorithm Description
@@ -69,7 +70,8 @@ Else print i
 Exit the loop. 
 ```
 
-This is an example of a very low-level approach to this, which I've tried out and use now and then when I can't get the AI to go down to this level. This is pseudocode; other people might call this semi-literate programming, although that's a complicated term. You describe what you want for the computer to do in English, and then you ask the AI to translate it. This is an example which I dictated myself last week. It's very simple because I only wanted it to be on one screen. 
+This is an example of a very low-level approach to this, which I've tried out and use now and then when I can't get the AI to go down to this level. This is pseudocode; other people might call this semi-literate programming, although that's a complicated term. You describe what you want for the computer to do in English, and then you ask the AI to translate it. This is an example which I dictated myself last week. It's very simple because I only wanted it to be on one screen.
+ 
 ---
 
 # High-level: spec/behavior-based development 
